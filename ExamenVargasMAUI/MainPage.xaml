@@ -7,7 +7,7 @@
         <Label  TextColor="CadetBlue" Text="Bienvenido a la aplicacion de" FontSize="32" HorizontalOptions="Center"/>
         <Label   Text="Pablo Vargas" FontSize="32" HorizontalOptions="Center"/>
         <Image Source="representa.jpg" HeightRequest="300" WidthRequest="350" HorizontalOptions="Center"/>
-
+        <Button Text="Chistes" Clicked="OnVerChisteClicked"/>
 
     </StackLayout>
 

@@ -9,7 +9,10 @@
             InitializeComponent();
         }
 
-        
+        private async void OnVerChisteClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PaginaChistes());
+        }
     }
 
 }
