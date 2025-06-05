@@ -4,13 +4,17 @@
              x:Class="ExamenVargasMAUI.PaginaChistes"
              Title="PaginaChistes">
     <AbsoluteLayout>
-        <Label>
+        <Label
+            x:Name="JokeLabel"
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            AbsoluteLayout.LayoutBounds="0.5, 0.4, 0.8, 0.4"
+            AbsoluteLayout.LayoutFlags="All"
+        />
+        <Button Text="Otro Chiste" Clicked="OnOtroChisteClicked"
+                AbsoluteLayout.LayoutBounds="0.5, 1, 1, 50"
+                AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"/>
 
-
-            
-            
-
-        </Label>
-        
     </AbsoluteLayout>
 </ContentPage>
