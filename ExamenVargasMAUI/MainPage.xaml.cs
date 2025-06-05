@@ -13,6 +13,10 @@
         {
             await Navigation.PushAsync(new PaginaChistes());
         }
+        private async void OnAboutClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new About());
+        }
     }
-
+    
 }
